@@ -163,13 +163,12 @@ footer {
     body {
         font-size: 90%;
         background-size: contain;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.6);
         background-attachment: fixed;
     }
 
     .area {
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.5);
         box-sizing: border-box;
         border-radius: 20px;
         padding: 1%;
