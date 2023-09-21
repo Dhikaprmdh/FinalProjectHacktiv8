@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>TUGAS AKHIR WEB DEVELOPER</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<script>
+	       document.querySelectorAll('nav a').forEach(anchor => {
+	           anchor.addEventListener('click', function (e) {
+	           e.preventDefault();
+	           
+	           const targetId = this.getAttribute('href').substring(1);
+	           const targetElement = document.getElementById(targetId);
+	           
+	           targetElement.scrollIntoView({ behavior: 'smooth' });
+	           });
+	       });
+	</script>
+</head>
+<body>
+	<section class="kotak">
+		<nav>
+			<a href="#about">About</a> <a href="#experiences">Experiences</a> <a href="#education">Education</a> <a href="#skills">Skills</a> <a href="#interests">Interests</a> <a href="#awards">Awards</a>
+		</nav>
+		<div class="area" id="profile">
+			<div class="intro">
+				<div class="foto-profil"><img alt="foto profil" src="ASSET/20220924170642_IMG_5246.jpg"></div>
+				<div class="nama">
+					Dhika Pramudhia
+				</div>
+				<div class="pekerjaan">
+					Videographer
+				</div>
+				<div class="situs">
+					<a href="https://www.linkedin.com/in/dhikapramudhia" target="_blank">LinkedIn</a> <a href="https://www.instagram.com/dhikaprmdh" target="_blank">Instagram</a> <a href="https://www.youtube.com/dhikapramudhia" target="_blank">YouTube</a> <a href="https://github.com/Dhikaprmdh" target="blank">Github</a>
+				</div>
+			</div>
+			<div class="garis" id="about">
+				<h2>About</h2><br>
+				<iframe allowfullscreen class="video" height="250" src="https://www.youtube.com/embed/rBhKFTqa4ss" style="border: none;" width="500"></iframe><br>
+				<p>This is the final project of Hacktiv8<br>
+				<br>
+				<strong>"Belajar Langkah Fundamental Untuk Menjadi Web Developer"</strong><br>
+				<br>
+				My name is Muhammad Andhika Pramudhia. I Have a Bachelor's degree in Communication Studies from UPN Veteran Jakarta, concentraring in Communication Science. While in University, I Spend my time Participating in several activities and joining organizations where i earn a lot of useful skills. in a professional capacity, I have been working as freelance videographer and photographer for 3 years, collaborating with various clients including my university, private companies, communities, and individuals. I have grown good communication skills and the ability to work with groups and/or individuals. I am now seeking more experience to challenge myself and put my capabilities to the fullest.</p>
+			</div>
+			<div class="garis" id="experiences">
+				<h2>Experiences</h2>
+				<p><strong>Autobois Media - Jakarta</strong></p>
+				<p>Leader</p>
+				<p style="color: lightblue;">October 2020 - Present (2 years, 7 months)</p><br>
+				<p><strong>PT. Fiber Cipta Kreasi - Jakarta</strong></p>
+				<p>Freelance Videographer, Live Streaming Coordinator, Multimedia Operator, Camera Operator, Offline Editor</p>
+				<p style="color: lightblue;">October 2020 - July 2022 (1 year, 11 months)</p>
+			</div>
+			<div class="garis" id="education">
+				<h2>Education</h2>
+				<p><strong>Universitas Pembangunan Nasional Veteran Jakarta</strong></p>
+				<p>Bachelor Degree in Communication Science, GPA 3.53/4.00</p>
+				<p style="color: lightblue;">2017-2022</p>
+			</div>
+			<div class="garis" id="skills">
+				<h2>Skills</h2>
+				<ul>
+					<li>CAMERA OPERATING</li>
+					<li>ADOBE PREMIERE PRO</li>
+					<li>ADOBE PHOTOSHOP</li>
+					<li>ADOBE LIGHTROOM</li>
+					<li>ADOBE AUDITION</li>
+					<li>ABLETON LIVE SUITE</li>
+					<li>OBS</li>
+				</ul>
+			</div>
+			<div class="garis" id="interests">
+				<h2>Interests</h2>
+				<p>FILM MAKING PROJECTS</p>
+				<p>WEB DEVELOPING</p>
+			</div>
+			<div class="garis" id="awards">
+				<h2>Awards</h2>
+				<p>I have not received any awards or recognition at the moment.</p>
+			</div>
+		</div><br>
+		<footer>
+			<div class="footer">
+				<a href="#top"><img alt="watermark" src="ASSET/image03.png"></a>
+			</div>
+			<div class="rights">
+				&copy; 2024 Dhika Pramudhia. All Rights Reserved.
+			</div>
+		</footer>
+	</section>
+</body>
+</html>
