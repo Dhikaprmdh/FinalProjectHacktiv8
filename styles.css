@@ -163,7 +163,7 @@ footer {
     body {
         font-size: 90%;
         background-size: contain;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.1);
         background-attachment: fixed;
     }
 
